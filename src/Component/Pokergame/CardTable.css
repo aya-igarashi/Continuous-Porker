@@ -1,0 +1,23 @@
+.card-table {
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.card-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-cell {
+  width: 40px;
+  height: 60px;
+  border: 1px solid #000;
+  margin: 5px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.used-card {
+  background-color: lightgray;
+}

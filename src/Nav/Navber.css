@@ -1,0 +1,30 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* 背景色を指定 */
+  padding: 10px 0;
+  z-index: 1000; /* 他の要素の上に表示されるようにする */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* ナビゲーション項目を中央揃えにする */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+body {
+}
